@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@font-face{
+  font-family: "Bingo";
+  src: url("/src/assets/fonts/BingoRegular-aYJ8m.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat-Alternates";
+  src: url("/src/assets/fonts/MontserratAlternates-LightItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: "Montserrat";
+  src: url("/src/assets/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Galant";
+  src: url("/src/assets/fonts/Galant-BF6902dc08be60f.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme{
+  --font-bingo:"Bingo", sans-serif;
+  --font-montserrat-alternates: "Montserrat-Alternates", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-galant: "Galant", sans-serif;
+}
